@@ -17,12 +17,15 @@ class Items extends Migration
             $table->bigIncrements('id');
             $table->bigInteger('item_type_id')->unsigned();
             $table->bigInteger('shop_id')->unsigned();
-            $table->integer('num_item_existed')->nullable();
+            $table->integer('quantity')->nullable();
+            $table->float('price')->nullable();
+            $table->integer('feature')->unsigned();feature
             $table->timestamps();
             $table->softDeletes();
             $table->foreign("item_type_id")->references("id")->on("item_types");
             $table->foreign("shop_id")->references("id")->on("shops");
         });
+    }
     }
 
     /**

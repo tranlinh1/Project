@@ -17,6 +17,7 @@ class Orders extends Migration
             $table->bigIncrements('id');
             $table->bigInteger('customer_id')->unsigned();
             $table->datetime('order_date')->nullable();
+            $table->string('address',255)->nullable();
             $table->decimal('total_price');
             $table->timestamps();
             $table->softDeletes();
