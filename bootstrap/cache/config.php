@@ -10,7 +10,7 @@
     'locale' => 'en',
     'fallback_locale' => 'en',
     'faker_locale' => 'en_US',
-    'key' => 'base64:ylJ+eAZqt5lQj81PjsQf7axp33nM8XfB5s5r0VgRhy0=',
+    'key' => 'base64:D9r1RsvNaUvBVD4gKPAWbgxUTE8/1WuwirDTnE64wjo=',
     'cipher' => 'AES-256-CBC',
     'providers' => 
     array (
@@ -183,7 +183,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'D:\\example-app-master\\storage\\framework/cache/data',
+        'path' => 'C:\\Users\\user\\Desktop\\project-1\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -354,12 +354,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'D:\\example-app-master\\storage\\app',
+        'root' => 'C:\\Users\\user\\Desktop\\project-1\\storage\\app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'D:\\example-app-master\\storage\\app/public',
+        'root' => 'C:\\Users\\user\\Desktop\\project-1\\storage\\app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
       ),
@@ -376,7 +376,7 @@
     ),
     'links' => 
     array (
-      'D:\\example-app-master\\public\\storage' => 'D:\\example-app-master\\storage\\app/public',
+      'C:\\Users\\user\\Desktop\\project-1\\public\\storage' => 'C:\\Users\\user\\Desktop\\project-1\\storage\\app/public',
     ),
   ),
   'hashing' => 
@@ -410,13 +410,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'D:\\example-app-master\\storage\\logs/laravel.log',
+        'path' => 'C:\\Users\\user\\Desktop\\project-1\\storage\\logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'D:\\example-app-master\\storage\\logs/laravel.log',
+        'path' => 'C:\\Users\\user\\Desktop\\project-1\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -467,7 +467,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'D:\\example-app-master\\storage\\logs/laravel.log',
+        'path' => 'C:\\Users\\user\\Desktop\\project-1\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -524,7 +524,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'D:\\example-app-master\\resources\\views/vendor/mail',
+        0 => 'C:\\Users\\user\\Desktop\\project-1\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -607,7 +607,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'D:\\example-app-master\\storage\\framework/sessions',
+    'files' => 'C:\\Users\\user\\Desktop\\project-1\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -627,9 +627,9 @@
   array (
     'paths' => 
     array (
-      0 => 'D:\\example-app-master\\resources\\views',
+      0 => 'C:\\Users\\user\\Desktop\\project-1\\resources\\views',
     ),
-    'compiled' => 'D:\\example-app-master\\storage\\framework\\views',
+    'compiled' => 'C:\\Users\\user\\Desktop\\project-1\\storage\\framework\\views',
   ),
   'flare' => 
   array (
